@@ -1,4 +1,4 @@
-esemkaCMS version 1.0 by Yogi Kortisa
+esemkaCMS - version 1.0 by Yogi Kortisa
 
 Nama: esemkaCMS
 Version: 1.0
