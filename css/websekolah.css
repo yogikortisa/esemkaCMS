@@ -1,0 +1,313 @@
+body {
+	background-color: #ffffff;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #555;
+}
+
+/* Layout Utama!
+***********************************************/
+#utama {
+	width: 960px;
+	margin-left: auto; margin-right: auto;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	-moz-box-shadow: 5px 5px 5px; 
+    -webkit-box-shadow:5px 5px 5px; 
+    -webkit-border-radius:15px; 
+}
+
+/* Menu Yogi
+***********************************************/
+.menuyogi {
+	background-color: #cccccc;
+	background-image: url(../gambar/menuatas.gif);
+	padding: 11px;
+}
+.menuyogi li {
+	display: inline;
+}
+.menuyogi li a {
+	color: #555555;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.menuyogi li a:hover {
+	color: #ff3300;
+}
+
+.menuyogi #user {
+	width: 10%;
+	float: right;
+	text-indent: 5px;
+}
+.menuyogi #status {
+	width: 14%;
+	float: right;
+	text-indent: 5px;
+}
+/* Menu Kiri
+*************************************************/
+#menukiri {
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 0px;
+	width: 300px;
+	float: left;
+}
+#bg_menu {
+	background-color: #000033;
+	background-image: url(../gambar/kecil2.gif);
+	border: 1px solid #555555;
+	border-bottom: 0px;
+	padding: 7px;
+	padding-left: 10px;
+	color: #FFF;
+	font-family: "harrington";
+	font-weight: bolder;
+	text-align: center;
+	font-size: 17px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	-moz-box-shadow: 0px 0px 10px #aaa; /* Firefox */
+	-webkit-box-shadow: 0px 0px 10px #aaa; /* Safari and Chrome */
+	box-shadow: 0px 0px 10px #aaa;
+}
+#content_menu {
+	font-size: 12px;
+	font-family: verdana;
+	background-color: #eeeeee;
+	border: 1px solid #555555;
+	line-height: 20px;
+	padding: 8px;
+	margin-bottom: 10px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+	-moz-box-shadow: 0px 0px 10px #aaa; /* Firefox */
+	-webkit-box-shadow: 0px 0px 10px #aaa; /* Safari and Chrome */
+	box-shadow: 0px 0px 10px #aaa;
+}
+#content_menu a {
+	color: #313a3e;
+	font-weight: lighter;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 23px;
+}
+#content_menu a:hover {
+	color: #000;
+}
+
+/* Bersihin! */
+.bersih {
+	clear: both;
+	float: none;
+}
+
+
+
+/* CSS Untuk Video
+******************************************************/
+#video {
+	margin-left: 15px; margin-top: 5px;
+	width: 300px;
+	float: left;
+}
+
+#video_judul {
+	padding: 7px;
+	padding-left: 10px;
+	color: #555;
+	font-family: "harrington";
+	font-weight: bolder;
+	text-align: center;
+	font-size: 17px;
+	-moz-box-shadow: 0px 0px 10px #aaa; /* Firefox */
+	-webkit-box-shadow: 0px 0px 10px #aaa; /* Safari and Chrome */
+	box-shadow: 0px 0px 10px #aaa;
+}
+
+#video_isi {
+	
+	font-size: 12px;
+	font-family: verdana;
+	background-color: #eeeeee;
+	padding: 1px;
+
+	margin-top: 10px;
+	-moz-box-shadow: 0px 0px 10px #aaa; /* Firefox */
+	-webkit-box-shadow: 0px 0px 10px #aaa; /* Safari and Chrome */
+	box-shadow: 0px 0px 10px #aaa;
+}
+
+/* Berita Terbaru
+*******************************************************/
+.berita { border-top:1px solid #dadada; background:#ececec; padding:0; margin:0 0 30px 0;}
+.berita p { font: normal 11px Arial, Helvetica, sans-serif; color:#7e7e7e; padding:10px; margin:0;}
+
+/* Layout Untuk BLOG
+*******************************************************/
+/*BLOG*/
+#blog { 
+	background-color:#EEEEEE; 
+    width: 628px; 
+    float: left; 
+    margin-top: 8px; 
+    margin-right: 8px; 
+    margin-bottom: 20px; 
+    margin-left: 8px; 
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	-moz-box-shadow: 0px 0px 10px #aaa; /* Firefox */
+	-webkit-box-shadow: 0px 0px 10px #aaa; /* Safari and Chrome */
+	box-shadow: 0px 0px 10px #aaa;
+} 
+#judul_blog {
+	border: 0px solid #555555;
+	background-color:#fefefe;
+	border-bottom: 0px;
+	padding: 7px;
+	width: 616px;
+	margin-right: 8px;
+	margin-top: 2px;
+	float:right;
+	color: #555;
+	letter-spacing: 2px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 17px;
+	-moz-box-shadow: 30px 0px 10px #aaa; /* Firefox */
+	-webkit-box-shadow: 0px 0px 10px #aaa; /* Safari and Chrome */
+	box-shadow: 0px 0px 10px #aaa;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#judul_blog a {
+	font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+	font-weight: bolder;
+    padding-bottom: 1px;
+	letter-spacing:2px;
+	color: #555;
+	text-decoration: none;
+}
+#judul_blog a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+
+/*Post*/
+.post {
+    overflow: hidden;
+    padding: 15px 0px;
+}
+.post .post-image {
+    float: left;
+    padding: 5px;
+	margin-top: 18px;
+	margin-left: 10px;
+	border: solid 1px #cccccc;
+}
+.post .post-text {
+    margin-left: 200px;
+}
+.post .post-text a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #003;
+}
+.post .post-text a:hover {
+	text-decoration: underline;
+}
+.post .post-text span {
+	float: right;
+	margin-right: 8px;
+	color: #313a3e;
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 23px;
+	text-decoration: none;
+}
+.post h1 {
+	font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+	font-weight: normal;
+    padding-bottom: 1px;
+	letter-spacing:2px;
+	color: #333;
+}
+.post p {
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+/* Judul */
+#judul a {
+	font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+	font-weight: normal;
+    padding-bottom: 1px;
+	letter-spacing:2px;
+	color: #333;
+}
+#judul a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+strong {
+	font-size: 13px;
+	color: #333;
+}
+/******************* Layout BLOG Selesai! *********************/
+
+/* Bagian Kaki */
+#kaki {
+	background-color: #000000;
+
+}
+
+/* Tombol */
+#tombol {
+	font-family: comic sans ms;
+	font-weight: bold;
+	color: #ccc;
+	text-align: center;
+    background: #333;
+    height:25px;
+    width:80px;
+    border 1px solid #CCC;
+    /* Property untuk membuat sudut lengkung : */
+    -moz-border-radius:25px; /* Firefox */
+    border-radius:25px;
+    /* Property untuk bayangan : */
+    -moz-box-shadow: 4px 4px 10px #999; /* Firefox */
+    -webkit-box-shadow: 4px 4px 10px #999; /* Safari and Chrome */
+    box-shadow: 4px 4px 10px #999;
+}
+
+.post-text2 {
+    margin-left: 0px;
+	padding: 10px;
+}
+
+.post-text2 p {
+	text-align:justify;
+	text-indent: 40px;
+}

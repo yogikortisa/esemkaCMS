@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteRule ^home$                        daftar.php [L]
+RewriteRule ^search$                      media.php?page=search [L]
+RewriteRule ^action-search$               media.php?page=action-search [L]
+RewriteRule ^comment$                     media.php?page=comment [L]
+RewriteRule ^allpost$                     media.php?page=post [L]
+RewriteRule ^page-(.*)$                   media.php?page=pages&id=$1 [L]
+RewriteRule ^post-(.*)$                   media.php?page=detailpost&id=$1 [L]
+RewriteRule ^category-(.*)$               media.php?page=category&id=$1 [L]
+RewriteRule ^pagging_home-(.*)$           media.php?page=home&hal=$1 [L]
+RewriteRule ^pagging_post-(.*)$           media.php?page=post&hal=$1 [L]
+RewriteRule ^pagging_category-(.*)-(.*)$  media.php?page=category&id=$1&hal=$2 [L]
+
+LimitRequestBody 10240000
+Options All -Indexes

@@ -1,0 +1,95 @@
+/*----- Drop Down Menu ----*/
+
+#dropdownmenuyogi {
+	background-color: #CCCCCC;
+	background-image: url(../gambar/menuatas.gif);
+    width: 960px;
+    color: #FFF;
+    margin: 0px;
+    padding: 0;
+    position: relative;
+    border-top:0px solid #960100;
+    height:33px;
+}
+#dropdownmenu {
+    margin: 0;
+    padding: 0;
+}
+#dropdownmenu ul {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#dropdownmenu li {
+	
+	font-size: 12px;
+	font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height:35px;
+}
+#dropdownmenu li a, #dropdownmenu li a:link, #dropdownmenu li a:visited {
+    color: #555555;
+	display: block;
+    margin: 0;
+    padding: 9px 12px 10px 12px;
+    text-decoration: none;
+}
+#dropdownmenu li a:hover, #mbtnav li a:active {
+background: #555;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 9px 12px 10px 12px;
+}
+#dropdownmenu li {
+    float: left;
+    padding: 0;
+}
+#dropdownmenu li ul {
+    z-index: 9999;
+    position: absolute;
+    left: -999em;
+    height: auto;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+}
+#dropdownmenu li ul a {
+    width: 140px;
+}
+#dropdownmenu li ul ul {
+    margin: -35px 0 0 145px;
+}
+#dropdownmenu li:hover ul ul, #dropdownmenu li:hover ul ul ul, #dropdownmenu li.sfhover ul ul, #dropdownmenu li.sfhover ul ul ul {
+    left: -999em;
+}
+#dropdownmenu li:hover ul, #dropdownmenu li li:hover ul, #dropdownmenu li li li:hover ul, #dropdownmenu li.sfhover ul, #dropdownmenu li li.sfhover ul, #dropdownmenu li li li.sfhover ul {
+    left: auto;
+}
+#dropdownmenu li:hover, #dropdownmenu li.sfhover {
+    position: static;
+}
+#dropdownmenu li li a, #dropdownmenu li li a:link, #dropdownmenu li li a:visited {
+    background: #DDD;
+    width: 120px;
+    color: #555;
+    display: block;
+    font:bold 12px Helvetica, sans-serif;
+    margin: 0;
+    padding: 9px 12px 10px 12px;
+    text-decoration: none;
+	z-index:9999;
+	border-bottom:1px dotted #333;
+}
+#dropdownmenu li li a:hover, #dropdownmenu li li a:active {
+    background: #555;
+    color: #FFF;
+    display: block;
+	margin: 0;
+    padding: 9px 12px 10px 12px;
+    text-decoration: none;
+}
